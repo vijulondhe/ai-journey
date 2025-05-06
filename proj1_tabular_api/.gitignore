@@ -1,0 +1,7 @@
+echo # Ignore Python build files> .gitignore
+echo __pycache__/>> .gitignore
+echo *.pyc>> .gitignore
+echo # Ignore virtual-env>> .gitignore
+echo .venv/>> .gitignore
+echo # Ignore Jupyter checkpoints>> .gitignore
+echo notebooks/.ipynb_checkpoints/>> .gitignore
