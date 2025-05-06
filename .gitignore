@@ -1,0 +1,11 @@
+# virtual env & caches
+venv/
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# macOS & Windows cruft
+.DS_Store
+Thumbs.db
