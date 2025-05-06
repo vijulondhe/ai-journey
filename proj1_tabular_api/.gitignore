@@ -1,7 +1,12 @@
-echo # Ignore Python build files> .gitignore
-echo __pycache__/>> .gitignore
-echo *.pyc>> .gitignore
-echo # Ignore virtual-env>> .gitignore
-echo .venv/>> .gitignore
-echo # Ignore Jupyter checkpoints>> .gitignore
-echo notebooks/.ipynb_checkpoints/>> .gitignore
+REM overwrite or create a clean .gitignore
+copy CON .gitignore
+# Ignore Python and virtual-env files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+.venv/
+
+# Ignore Jupyter checkpoints
+notebooks/.ipynb_checkpoints/
+<Ctrl-Z>  ↵        ← press Ctrl-Z then Enter to save the file
